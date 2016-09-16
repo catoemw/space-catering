@@ -1,0 +1,61 @@
+body {
+	font-family: sans-serif;
+}
+
+header,
+footer {
+	padding: 10px;
+	background-color: #e67e22
+}
+main {
+	background-image: url("assets/triangular_@2X.png");
+}
+
+nav a {
+	color: #ffffff;
+}
+
+nav li {
+	list-style-type: none;
+}
+
+nav > ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+ul#outer-nav > li {
+	display: inline-block;
+} 
+
+h2 + p {
+	font-size: 16px
+}
+
+ul.dropdown {
+	display: none;
+}
+
+/*HARD MODE*/
+
+nav a:hover + ul.dropdown {
+	display: inline-block;
+}
+
+main {
+	padding: 10px;
+	margin: 10px 0px 10px 0px;
+}
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+}
+
+h1 + p {
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+}
